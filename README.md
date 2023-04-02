@@ -1,2 +1,2 @@
 # calander
-A page for month wise calendar, using C language
+A program that displays a calendar for a given year and month.
