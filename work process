@@ -1,1 +1,1 @@
-1. The program begins by including the standard input/output library in C using the `#include <stdio.h>`
+1. The program begins by including the standard input/output library in C using the `#include <stdio.h>` directive.
