@@ -1,2 +1,2 @@
 1. The program begins by including the standard input/output library in C using the `#include <stdio.h>` directive.
-2. The 
+2. The `main()` 
