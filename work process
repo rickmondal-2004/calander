@@ -1,4 +1,4 @@
 1. The program begins by including the standard input/output library in C using the `#include <stdio.h>` directive.
 2. The `main()` function is defined, which is the entry point of the program.
 3. Inside the `main()` function, several variables are declared, including `month`, `year`, `daysInMonth`, `startingDay`, and `dayOfWeek`.
-4. The user is prompted to enter the month and year for which they would like to print a calendar 
+4. The user is prompted to enter the month and year for which they would like to print a calendar using the `printf()` and 
