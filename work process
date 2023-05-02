@@ -2,4 +2,4 @@
 2. The `main()` function is defined, which is the entry point of the program.
 3. Inside the `main()` function, several variables are declared, including `month`, `year`, `daysInMonth`, `startingDay`, and `dayOfWeek`.
 4. The user is prompted to enter the month and year for which they would like to print a calendar using the `printf()` and `scanf()` functions.
-5. A switch statement is
+5. A switch statement is used to determine the number of days in the given month based on its value.
