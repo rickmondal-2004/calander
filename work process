@@ -3,5 +3,5 @@
 3. Inside the `main()` function, several variables are declared, including `month`, `year`, `daysInMonth`, `startingDay`, and `dayOfWeek`.
 4. The user is prompted to enter the month and year for which they would like to print a calendar using the `printf()` and `scanf()` functions.
 5. A switch statement is used to determine the number of days in the given month based on its value. If the month is February (i.e., `month` equals 2), 
-the program checks if the year is a leap year to determine if the month has 29 or 28 days. 
+   the program checks if the year is a leap year to determine if the month has 29 or 28 days. 
 6. The starting day of the 
