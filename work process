@@ -6,3 +6,4 @@
    the program checks if the year is a leap year to determine if the month has 29 or 28 days. 
 6. The starting day of the month is calculated using a formula that takes into account the number of days in previous years, accounting for leap years, and adding the number of days in previous months in the current year. 
    The resulting value is stored in the `startingDay` variable.
+   7. The day of the 
