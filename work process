@@ -7,4 +7,4 @@
 6. The starting day of the month is calculated using a formula that takes into account the number of days in previous years, accounting for leap years, and adding the number of days in previous months in the current year. 
    The resulting value is stored in the `startingDay` variable.
 7. The day of the week that the first day of the month falls on is calculated by taking the modulus of `startingDay` divided by 7. This is stored in the `dayOfWeek` variable.
-8. The header for the calendar grid is printed using the `printf()` 
+8. The header for the calendar grid is printed using the `printf()` function to display the abbreviated names of the days of the week.
