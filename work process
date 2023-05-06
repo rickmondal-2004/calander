@@ -8,3 +8,4 @@
    The resulting value is stored in the `startingDay` variable.
 7. The day of the week that the first day of the month falls on is calculated by taking the modulus of `startingDay` divided by 7. This is stored in the `dayOfWeek` variable.
 8. The header for the calendar grid is printed using the `printf()` function to display the abbreviated names of the days of the week.
+9. A `for` loop is used to print out spaces to align the first day 
