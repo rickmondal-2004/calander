@@ -12,5 +12,4 @@
 10. Another `for` loop is used to print out the days of the month, using the `printf()` function and the `-5d` format specifier to align the numbers in the calendar grid.
     The program checks if the last day of the week (Saturday) has been printed by incrementing the value of `dayOfWeek` and checking if it is greater than 6. If it is,
     a newline character is printed to start a new row in the calendar grid.
-11. Once all of the days in the month have been printed, the program checks if the last row of the calendar grid is incomplete (i.e.,
-
+11. Once all of the days in the month have been printed, the program checks if the last row of the calendar grid is incomplete (i.e., if the last day of the month does
