@@ -7,7 +7,7 @@ Step 5. A switch statement is used to determine the number of days in the given 
 Step 6. The starting day of the month is calculated using a formula that takes into account the number of days in previous years, accounting for leap years, and adding the number of days in previous months in the current year. 
    The resulting value is stored in the `startingDay` variable.
 Step 7. The day of the week that the first day of the month falls on is calculated by taking the modulus of `startingDay` divided by 7. This is stored in the `dayOfWeek` variable.
-8. The header for the calendar grid is printed using the `printf()` function to display the abbreviated names of the days of the week.
+Step 8. The header for the calendar grid is printed using the `printf()` function to display the abbreviated names of the days of the week.
 9. A `for` loop is used to print out spaces to align the first day of the month with the correct day of the week, using the value of `dayOfWeek`.
 10. Another `for` loop is used to print out the days of the month, using the `printf()` function and the `-5d` format specifier to align the numbers in the calendar grid.
     The program checks if the last day of the week (Saturday) has been printed by incrementing the value of `dayOfWeek` and checking if it is greater than 6. If it is,
