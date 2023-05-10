@@ -4,7 +4,7 @@ Step 3. Inside the `main()` function, several variables are declared, including 
 Step 4. The user is prompted to enter the month and year for which they would like to print a calendar using the `printf()` and `scanf()` functions.
 Step 5. A switch statement is used to determine the number of days in the given month based on its value. If the month is February (i.e., `month` equals 2), 
    the program checks if the year is a leap year to determine if the month has 29 or 28 days. 
-6. The starting day of the month is calculated using a formula that takes into account the number of days in previous years, accounting for leap years, and adding the number of days in previous months in the current year. 
+Step 6. The starting day of the month is calculated using a formula that takes into account the number of days in previous years, accounting for leap years, and adding the number of days in previous months in the current year. 
    The resulting value is stored in the `startingDay` variable.
 7. The day of the week that the first day of the month falls on is calculated by taking the modulus of `startingDay` divided by 7. This is stored in the `dayOfWeek` variable.
 8. The header for the calendar grid is printed using the `printf()` function to display the abbreviated names of the days of the week.
