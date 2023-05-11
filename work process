@@ -11,7 +11,7 @@ Step 8. The header for the calendar grid is printed using the `printf()` functio
 Step 9. A `for` loop is used to print out spaces to align the first day of the month with the correct day of the week, using the value of `dayOfWeek`.
 Step 10. Another `for` loop is used to print out the days of the month, using the `printf()` function and the `-5d` format specifier to align the numbers in the calendar grid.
          The program checks if the last day of the week (Saturday) has been printed by incrementing the value of `dayOfWeek` and checking if it is greater than 6. If it is,
-    a newline character is printed to start a new row in the calendar grid.
+         a newline character is printed to start a new row in the calendar grid.
 Step 11. Once all of the days in the month have been printed, the program checks if the last row of the calendar grid is incomplete (i.e., if the last day of the month does not fall on a Saturday). 
     If it is, another newline character is printed to end the calendar grid.
 Step 12. The program ends with the `return 0;` statement in the `main()` function, indicating that the program has completed successfully.
